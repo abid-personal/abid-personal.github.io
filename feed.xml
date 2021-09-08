@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Abid Omar</title>
+      <link>https://omarabid.com/blog</link>
+      <description>Abid Omar&#39;s Personal Blog</description>
+      <language>en-us</language>
+      <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
+      <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
+      <lastBuildDate>Tue, 07 Sep 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://omarabid.com/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://omarabid.com/blog/hello-world</guid>
+    <title>Hello World</title>
+    <link>https://omarabid.com/blog/hello-world</link>
+    <description>Hello World JAM Stack</description>
+    <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>hello</category><category>world</category>
+  </item>
+
+    </channel>
+  </rss>
