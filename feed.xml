@@ -7,17 +7,117 @@
       <language>en-us</language>
       <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
       <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
-      <lastBuildDate>Tue, 07 Sep 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 01 Feb 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://omarabid.com/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://omarabid.com/blog/hello-world</guid>
-    <title>Hello World</title>
-    <link>https://omarabid.com/blog/hello-world</link>
-    <description>Hello World JAM Stack</description>
-    <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+    <guid>https://omarabid.com/blog/regulation-as-a-service</guid>
+    <title>Regulation as a Service</title>
+    <link>https://omarabid.com/blog/regulation-as-a-service</link>
+    <description>Can you sell regulation?</description>
+    <pubDate>Mon, 01 Feb 2021 00:00:00 GMT</pubDate>
     <author>contact@omarabid.com (Abid Omar)</author>
-    <category>hello</category><category>world</category>
+    <category>Business</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/rust-high-level-language</guid>
+    <title>Rust as a productive high-level language</title>
+    <link>https://omarabid.com/blog/rust-high-level-language</link>
+    <description>High-level productivity with Rust</description>
+    <pubDate>Tue, 10 Nov 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Rust</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/modern-web-dev</guid>
+    <title>How complex is modern web development</title>
+    <link>https://omarabid.com/blog/modern-web-dev</link>
+    <description>Visualizing the complexity of modern web development</description>
+    <pubDate>Mon, 26 Oct 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Web</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/zero-rates-world</guid>
+    <title>Are we in a bubble? A look at the brave new world of zero rates</title>
+    <link>https://omarabid.com/blog/zero-rates-world</link>
+    <description>Explaining asset&#39;s price appreciation</description>
+    <pubDate>Mon, 07 Sep 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Economy</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/apple-hell</guid>
+    <title>Apple&#39;s Hell</title>
+    <link>https://omarabid.com/blog/apple-hell</link>
+    <description>Apple&#39;s issues</description>
+    <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Apple</category><category>Review</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/usd-stable-coins</guid>
+    <title>Examining the complex web of USD stable coins</title>
+    <link>https://omarabid.com/blog/usd-stable-coins</link>
+    <description>A brief look on some USD stable coins</description>
+    <pubDate>Fri, 05 Jun 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Crypto</category><category>Defi</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/async-rust</guid>
+    <title>A primer to Rust Async</title>
+    <link>https://omarabid.com/blog/async-rust</link>
+    <description>An introduction to Rust Async programming</description>
+    <pubDate>Mon, 10 Feb 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Rust</category><category>Async</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/the-modern-web</guid>
+    <title>The modern web is becoming an unusable, user-hostile wasteland</title>
+    <link>https://omarabid.com/blog/the-modern-web</link>
+    <description>Some thoughts about the modern web</description>
+    <pubDate>Fri, 20 Dec 2019 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Web</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/rust-2020</guid>
+    <title>Rust 2020`:` A better ecosystem</title>
+    <link>https://omarabid.com/blog/rust-2020</link>
+    <description>Suggestion for Rust 2020</description>
+    <pubDate>Fri, 01 Nov 2019 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Rust</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/rust-intro</guid>
+    <title>A brief introduction to Rust</title>
+    <link>https://omarabid.com/blog/rust-intro</link>
+    <description>A brief introduction to Rust</description>
+    <pubDate>Thu, 10 Oct 2019 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Rust</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/vim</guid>
+    <title>The VIM Experience</title>
+    <link>https://omarabid.com/blog/vim</link>
+    <description>7 years journey with VIM</description>
+    <pubDate>Sat, 27 Apr 2019 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>vim</category><category>productivity</category>
   </item>
 
     </channel>
