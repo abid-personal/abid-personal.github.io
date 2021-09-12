@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Abid Omar</title>
+      <link>https://omarabid.com/blog</link>
+      <description>Hi. My name is Abid Omar and this is the corner of the web where I write some stuff</description>
+      <language>en-us</language>
+      <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
+      <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
+      <lastBuildDate>Mon, 07 Sep 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://omarabid.com/tags/economy/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://omarabid.com/blog/zero-rates-world</guid>
+    <title>Are we in a bubble? A look at the brave new world of zero rates</title>
+    <link>https://omarabid.com/blog/zero-rates-world</link>
+    <description>Explaining asset&#39;s price appreciation</description>
+    <pubDate>Mon, 07 Sep 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Economy</category>
+  </item>
+
+    </channel>
+  </rss>

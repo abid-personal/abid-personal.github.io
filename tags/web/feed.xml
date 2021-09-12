@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Abid Omar</title>
+      <link>https://omarabid.com/blog</link>
+      <description>Hi. My name is Abid Omar and this is the corner of the web where I write some stuff</description>
+      <language>en-us</language>
+      <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
+      <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
+      <lastBuildDate>Mon, 26 Oct 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://omarabid.com/tags/web/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://omarabid.com/blog/modern-web-dev</guid>
+    <title>How complex is modern web development</title>
+    <link>https://omarabid.com/blog/modern-web-dev</link>
+    <description>Visualizing the complexity of modern web development</description>
+    <pubDate>Mon, 26 Oct 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Web</category><category>Programming</category>
+  </item>
+
+  <item>
+    <guid>https://omarabid.com/blog/the-modern-web</guid>
+    <title>The modern web is becoming an unusable, user-hostile wasteland</title>
+    <link>https://omarabid.com/blog/the-modern-web</link>
+    <description>Some thoughts about the modern web</description>
+    <pubDate>Fri, 20 Dec 2019 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Web</category><category>Programming</category>
+  </item>
+
+    </channel>
+  </rss>

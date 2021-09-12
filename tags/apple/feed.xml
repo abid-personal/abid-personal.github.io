@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Abid Omar</title>
+      <link>https://omarabid.com/blog</link>
+      <description>Hi. My name is Abid Omar and this is the corner of the web where I write some stuff</description>
+      <language>en-us</language>
+      <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
+      <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
+      <lastBuildDate>Tue, 18 Aug 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://omarabid.com/tags/apple/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://omarabid.com/blog/apple-hell</guid>
+    <title>Apple&#39;s Hell</title>
+    <link>https://omarabid.com/blog/apple-hell</link>
+    <description>Apple&#39;s issues</description>
+    <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Abid Omar)</author>
+    <category>Apple</category><category>Review</category>
+  </item>
+
+    </channel>
+  </rss>
