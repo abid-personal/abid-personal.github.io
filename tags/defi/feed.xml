@@ -1,12 +1,12 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>Abid Omar</title>
+      <title>Omar Abid</title>
       <link>https://omarabid.com/blog</link>
-      <description>Hi. My name is Abid Omar and this is the corner of the web where I write some stuff</description>
+      <description>Personal website and blog of Omar Abid.</description>
       <language>en-us</language>
-      <managingEditor>contact@omarabid.com (Abid Omar)</managingEditor>
-      <webMaster>contact@omarabid.com (Abid Omar)</webMaster>
+      <managingEditor>contact@omarabid.com (Omar Abid)</managingEditor>
+      <webMaster>contact@omarabid.com (Omar Abid)</webMaster>
       <lastBuildDate>Fri, 05 Jun 2020 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://omarabid.com/tags/defi/feed.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,7 +16,7 @@
     <link>https://omarabid.com/blog/usd-stable-coins</link>
     <description>A brief look on some USD stable coins</description>
     <pubDate>Fri, 05 Jun 2020 00:00:00 GMT</pubDate>
-    <author>contact@omarabid.com (Abid Omar)</author>
+    <author>contact@omarabid.com (Omar Abid)</author>
     <category>Crypto</category><category>Defi</category>
   </item>
 
