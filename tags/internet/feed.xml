@@ -8,7 +8,7 @@
       <managingEditor>contact@omarabid.com (Omar Abid)</managingEditor>
       <webMaster>contact@omarabid.com (Omar Abid)</webMaster>
       <lastBuildDate>Sun, 03 Sep 2023 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://omarabid.com/tags/business/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://omarabid.com/tags/internet/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://omarabid.com/blog/future-of-web</guid>
@@ -18,16 +18,6 @@
     <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
     <author>contact@omarabid.com (Omar Abid)</author>
     <category>Business</category><category>Internet</category><category>Web</category>
-  </item>
-
-  <item>
-    <guid>https://omarabid.com/blog/regulation-as-a-service</guid>
-    <title>Regulation as a Service</title>
-    <link>https://omarabid.com/blog/regulation-as-a-service</link>
-    <description>Can you sell regulation?</description>
-    <pubDate>Mon, 01 Feb 2021 00:00:00 GMT</pubDate>
-    <author>contact@omarabid.com (Omar Abid)</author>
-    <category>Business</category>
   </item>
 
     </channel>

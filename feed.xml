@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@omarabid.com (Omar Abid)</managingEditor>
       <webMaster>contact@omarabid.com (Omar Abid)</webMaster>
-      <lastBuildDate>Mon, 01 Feb 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 03 Sep 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://omarabid.com/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://omarabid.com/blog/future-of-web</guid>
+    <title>How Discord and AI will shape Web 4.0</title>
+    <link>https://omarabid.com/blog/future-of-web</link>
+    <description>Exploring how Web 4.0 will look like based on current trends.</description>
+    <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
+    <author>contact@omarabid.com (Omar Abid)</author>
+    <category>Business</category><category>Internet</category><category>Web</category>
+  </item>
+
   <item>
     <guid>https://omarabid.com/blog/regulation-as-a-service</guid>
     <title>Regulation as a Service</title>
