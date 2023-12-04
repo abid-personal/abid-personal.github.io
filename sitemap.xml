@@ -1,98 +1,59 @@
-
-        <?xml version="1.0" encoding="UTF-8"?>
-        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            
-                        <url>
-                            <loc>https://omarabid.com/apple-hell</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/async-rust</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/modern-web-dev</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/regulation-as-a-service</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/rust-2020</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/rust-high-level-language</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/rust-intro</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/the-modern-web</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/usd-stable-coins</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/vim</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/zero-rates-world</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/apple</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/async</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/business</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/crypto</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/defi</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/productivity</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/review</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/rust</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/vim</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/programming</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/economy</loc>
-                        </url>
-                    
-                        <url>
-                            <loc>https://omarabid.com/tags/web</loc>
-                        </url>
-                    
-        </urlset>
-    
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://omarabid.com/</loc>
+<lastmod>2023-12-04</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/tags</loc>
+<lastmod>2023-12-04</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/apple-hell</loc>
+<lastmod>2020-08-18T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/async-rust</loc>
+<lastmod>2020-02-10T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/future-of-web</loc>
+<lastmod>2023-09-03T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/modern-web-dev</loc>
+<lastmod>2020-10-26T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/regulation-as-a-service</loc>
+<lastmod>2021-02-01T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/rust-2020</loc>
+<lastmod>2019-11-01T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/rust-high-level-language</loc>
+<lastmod>2020-11-10T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/rust-intro</loc>
+<lastmod>2019-10-10T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/the-modern-web</loc>
+<lastmod>2019-12-20T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/usd-stable-coins</loc>
+<lastmod>2020-06-05T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/vim</loc>
+<lastmod>2019-04-27T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/zero-rates-world</loc>
+<lastmod>2020-09-07T00:00:00.000Z</lastmod>
+</url>
+</urlset>

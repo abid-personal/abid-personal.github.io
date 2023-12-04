@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://omarabid.com
+Sitemap: https://omarabid.com/sitemap.xml

@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[573],{698:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/500",function(){return _(4571)}])},4571:function(n,u,_){"use strict";_.r(u);var t=_(5893);u.default=()=>(0,t.jsx)("h1",{children:"500 - Page not found"})}},function(n){n.O(0,[774,888,179],function(){return n(n.s=698)}),_N_E=n.O()}]);
