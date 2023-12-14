@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/2d141e1a38819612-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/dda28992d00286ca.css","style",{"crossOrigin":""}]
-0:["L2NAR9erFewxpipPze8Mp",[[["",{"children":["(blog)",{"children":[["slug","regulation-as-a-service","c"],{"children":["__PAGE__?{\"slug\":[\"regulation-as-a-service\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dda28992d00286ca.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["kNpQw0lOp5Viej7lRB_c-",[[["",{"children":["(blog)",{"children":[["slug","regulation-as-a-service","c"],{"children":["__PAGE__?{\"slug\":[\"regulation-as-a-service\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dda28992d00286ca.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/c1c99bc127b9f571.css","style",{"crossOrigin":""}]
 6:I[7821,["326","static/chunks/326-f0b929b9e51900a5.js","185","static/chunks/app/layout-a7390554a17907db.js"],"ThemeProviders"]
 7:I[8326,["326","static/chunks/326-f0b929b9e51900a5.js","202","static/chunks/app/(blog)/%5B...slug%5D/page-22646820185bd04d.js"],""]
