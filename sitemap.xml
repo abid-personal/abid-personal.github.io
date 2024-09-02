@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://omarabid.com/</loc>
-<lastmod>2024-05-07</lastmod>
+<lastmod>2024-09-02</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/tags</loc>
-<lastmod>2024-05-07</lastmod>
+<lastmod>2024-09-02</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/apple-hell</loc>
@@ -39,6 +39,10 @@
 <url>
 <loc>https://omarabid.com/rust-2020</loc>
 <lastmod>2019-11-01T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/rust-graphql</loc>
+<lastmod>2024-09-01T00:00:00.000Z</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/rust-high-level-language</loc>
