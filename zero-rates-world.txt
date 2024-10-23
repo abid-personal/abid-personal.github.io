@@ -1,7 +1,7 @@
 1:HL["/_next/static/media/2d141e1a38819612-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/630541743bb21be2.css","style",{"crossOrigin":""}]
 3:HL["/_next/static/css/77ab528667035b79.css","style",{"crossOrigin":""}]
-0:["djT_DFkKx5v4mx5QM2qwL",[[["",{"children":["(blog)",{"children":[["slug","zero-rates-world","c"],{"children":["__PAGE__?{\"slug\":[\"zero-rates-world\"]}",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/630541743bb21be2.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/77ab528667035b79.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
+0:["IqR1Y6NDkEEwPFFp6i7n9",[[["",{"children":["(blog)",{"children":[["slug","zero-rates-world","c"],{"children":["__PAGE__?{\"slug\":[\"zero-rates-world\"]}",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/630541743bb21be2.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/77ab528667035b79.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
 6:HL["/_next/static/css/c1c99bc127b9f571.css","style",{"crossOrigin":""}]
 7:I[4893,["326","static/chunks/326-f0b929b9e51900a5.js","185","static/chunks/app/layout-b2af174b712c4582.js"],"CSPostHogProvider"]
 8:I[7821,["326","static/chunks/326-f0b929b9e51900a5.js","185","static/chunks/app/layout-b2af174b712c4582.js"],"ThemeProviders"]
