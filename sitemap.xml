@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://omarabid.com/</loc>
-<lastmod>2024-10-23</lastmod>
+<lastmod>2025-03-12</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/tags</loc>
-<lastmod>2024-10-23</lastmod>
+<lastmod>2025-03-12</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/apple-hell</loc>
@@ -27,6 +27,10 @@
 <url>
 <loc>https://omarabid.com/future-of-web</loc>
 <lastmod>2023-09-03T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/gpt3-now</loc>
+<lastmod>2025-03-12T00:00:00.000Z</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/modern-web-dev</loc>
