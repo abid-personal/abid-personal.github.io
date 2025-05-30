@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://omarabid.com/</loc>
-<lastmod>2025-04-24</lastmod>
+<lastmod>2025-05-30</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/tags</loc>
-<lastmod>2025-04-24</lastmod>
+<lastmod>2025-05-30</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/apple-hell</loc>
@@ -19,6 +19,10 @@
 <url>
 <loc>https://omarabid.com/beneficial-ownership</loc>
 <lastmod>2023-12-14T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://omarabid.com/claude-4</loc>
+<lastmod>2025-05-30T00:00:00.000Z</lastmod>
 </url>
 <url>
 <loc>https://omarabid.com/command-arguments</loc>
