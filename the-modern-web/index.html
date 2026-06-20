@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="en-us" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The modern web is becoming an unusable, user-hostile wasteland | Omar Abid - Personal Blog</title><meta name="description" content="Some thoughts about the modern web"><link rel="canonical" href="https://omarabid.com/the-modern-web"><link rel="alternate" type="application/rss+xml" title="Omar Abid - Personal Blog" href="/rss.xml"><link rel="apple-touch-icon" sizes="76x76" href="/favicon.svg"><link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon.svg"><link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon.svg"><link rel="manifest" href="/static/favicons/site.webmanifest"><link rel="mask-icon" href="/favicon.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#000000"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafafa"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a"><meta property="og:type" content="website"><meta property="og:title" content="The modern web is becoming an unusable, user-hostile wasteland"><meta property="og:description" content="Some thoughts about the modern web"><meta property="og:url" content="https://omarabid.com/the-modern-web"><meta property="og:site_name" content="Omar Abid - Personal Blog"><meta property="og:image" content="https://omarabid.com/static/images/twitter-card.png"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The modern web is becoming an unusable, user-hostile wasteland"><meta name="twitter:description" content="Some thoughts about the modern web"><meta name="twitter:image" content="https://omarabid.com/static/images/twitter-card.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Omar Abid - Personal Blog","url":"https://omarabid.com","description":"Personal blog of Omar Abid"}</script><script>
+  (function () {
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = stored || (prefersDark ? 'dark' : 'light');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })();
+</script><script>(function(){const apiKey = "phc_SXKq5wim75yivOL0JMC6AEukyJx0RX7MaoJgzrZhAOd";
+const apiHost = "https://prx.omarabid.com";
+
+  (function () {
+    if (!apiKey) return;
+    window.posthog = window.posthog || function () {
+      (window.posthog.q = window.posthog.q || []).push(arguments);
+    };
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = apiHost + '/static/array.js';
+    var t = document.getElementsByTagName('script')[0];
+    t.parentNode.insertBefore(s, t);
+    window.posthog.init(apiKey, {
+      api_host: apiHost,
+      person_profiles: 'identified_only',
+    });
+  })();
+})();</script><link rel="stylesheet" href="/_astro/BaseLayout.CYey4pER.css"></head> <body class="min-h-screen bg-zinc-50 font-sans text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(c,s,d)=>s in c?g(c,s,{enumerable:!0,configurable:!0,writable:!0,value:d}):c[s]=d;var l=(c,s,d)=>w(c,typeof s!="symbol"?s+"":s,d);var E=new Set(["__proto__","constructor","prototype"]);{let c={0:t=>y(t),1:t=>d(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(d(t)),5:t=>new Set(d(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in c?c[p](e):void 0},d=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let n=this.querySelectorAll("astro-slot"),r={},i=this.querySelectorAll("template[data-astro-template]");for(let o of i){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of n){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let a=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(a+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${a}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,r,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),n.disconnect(),this.childrenConnectedCallback()},n=new MutationObserver(()=>{var r;((r=this.lastChild)==null?void 0:r.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});n.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let n=new URL(e,document.baseURI),r=`astro-retry=${Date.now()}`,i=n.hash.replace(/^#/,"");return n.hash=i?`${i}&${r}`:r,n.toString()}async importWithRetry(e){try{return await import(e)}catch(n){return await new Promise(r=>setTimeout(r,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let n=this.getAttribute("component-url"),r=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:n}});this.dispatchEvent(r)&&console.error(`[astro-island] Error hydrating ${n}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),n=this.getAttribute("client");if(Astro[n]===void 0){window.addEventListener(`astro:${n}`,()=>this.start(),{once:!0});return}try{await Astro[n](async()=>{let r=this.getAttribute("renderer-url");try{let[i,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),r?this.importWithRetry(r):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=i;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=i[h]}return this.hydrator=u,this.hydrate}catch(i){return this.handleHydrationError(i),()=>{}}},e,this)}catch(r){this.handleHydrationError(r)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="2nYFC9" prefix="r1" component-url="/_astro/Search.D35f66jP.js" component-export="default" renderer-url="/_astro/client.DEGIX_Eg.js" props="{}" ssr client="idle" opts="{&quot;name&quot;:&quot;Search&quot;,&quot;value&quot;:true}"></astro-island> <header class="sticky top-0 z-40 border-b border-zinc-200/70 bg-zinc-50/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80"> <div class="mx-auto flex h-14 max-w-2xl items-center justify-between px-6"> <a href="/" class="text-sm font-semibold tracking-tight text-zinc-900 transition-opacity hover:opacity-70 dark:text-zinc-50"> Omar Abid </a> <nav class="flex items-center gap-1 text-sm"> <button id="theme-switch" aria-label="Toggle Dark Mode" class="inline-flex h-8 w-8 items-center justify-center text-zinc-600 transition-colors hover:bg-zinc-200/60 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100"> <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke-width="0" viewBox="0 0 56 56" fill="currentColor"> <path d="M41.2 36.1c-12.9 0-21-7.8-21-20.3 0-3.5.7-6.7 1.6-8.3.3-.7.4-1 .4-1.5 0-.8-.7-1.7-1.7-1.7-.2 0-.7 0-1.3.3A24.5 24.5 0 004.4 27.1 23.8 23.8 0 0029 51.7c10.2 0 18.4-5.3 22.3-14.1l.3-1.4c0-1-.9-1.6-1.6-1.6a3 3 0 00-1.2.2c-2 .8-4.8 1.3-7.6 1.3zM8.1 27c0-7.3 3.8-14.3 9.9-18-.8 2-1.2 4.5-1.2 7.2 0 14.6 9 23.3 23.9 23.3 2.4 0 4.5-.2 6.4-1a20.8 20.8 0 01-18 9.6C17 48 8.1 39 8.1 27z"></path> </svg> <svg class="block dark:hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke-width="0" viewBox="0 0 56 56" fill="currentColor"> <path d="M30 4.6c0-1-.9-2-2-2a2 2 0 00-2 2v5c0 1 .9 2 2 2s2-1 2-2zm9.6 9a2 2 0 000 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 000-2.9 2 2 0 00-3 0zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3zM28 16a12 12 0 00-12 12 12 12 0 0012 12 12 12 0 0012-12 12 12 0 00-12-12zm0 3.6c4.6 0 8.4 3.8 8.4 8.4 0 4.6-3.8 8.4-8.4 8.4a8.5 8.5 0 01-8.4-8.4c0-4.6 3.8-8.4 8.4-8.4zM51.3 30c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 00-2 2c0 1.1 1 2 2 2zM4.7 26a2 2 0 00-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2zm37.8 13.6a2 2 0 00-3 0 2 2 0 000 2.9l3.6 3.5a2 2 0 002.9 0c.8-.8.8-2.1 0-3zM10 43.1a2 2 0 000 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0zm20 3.4c0-1.1-.9-2-2-2a2 2 0 00-2 2v4.9c0 1 .9 2 2 2s2-1 2-2z"></path> </svg> </button> <script>
+  document.getElementById('theme-switch').addEventListener('click', function () {
+    const isDark = document.documentElement.classList.contains('dark');
+    const next = isDark ? 'light' : 'dark';
+    if (next === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+    localStorage.setItem('theme', next);
+  });
+</script> <a href="https://codeinput.com" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">
+Code Input
+</a> <a href="/about" class="px-2.5 py-1 text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">
+About
+</a> </nav> </div> </header> <script type="module">function n(){window.dispatchEvent(new CustomEvent("kbar-open"))}document.addEventListener("keydown",e=>{(e.metaKey||e.ctrlKey)&&e.key==="k"&&(e.preventDefault(),n())});</script> <main class="mx-auto max-w-2xl px-6 py-10 md:py-16">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"The modern web is becoming an unusable, user-hostile wasteland","datePublished":"2019-12-20T00:00:00.000Z","dateModified":"2019-12-20T00:00:00.000Z","description":"Some thoughts about the modern web","image":"/static/images/twitter-card.png","url":"https://omarabid.com/the-modern-web","author":{"@type":"Person","name":"Omar Abid"}}</script> <section class="w-full"> <button id="scroll-top-btn" aria-label="Scroll to top" class="fixed bottom-8 right-8 z-40 inline-flex items-center gap-1.5 px-3 py-2 font-mono text-xs uppercase tracking-widest text-zinc-400 transition-all hover:text-zinc-900 dark:text-zinc-600 dark:hover:text-zinc-100 opacity-0 pointer-events-none">
+&uarr; Top
+</button> <script>
+  (function () {
+    var btn = document.getElementById('scroll-top-btn');
+    if (!btn) return;
+    function onScroll() {
+      if (window.scrollY > 50) {
+        btn.classList.remove('opacity-0', 'pointer-events-none');
+      } else {
+        btn.classList.add('opacity-0', 'pointer-events-none');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script> <header class="border-b border-zinc-200 pb-6 dark:border-zinc-800"> <div class="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-zinc-500 dark:text-zinc-400"> <a href="https://github.com/omarabid" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-zinc-900 dark:hover:text-zinc-100">
+@omarabid
+</a> <span class="text-zinc-300 dark:text-zinc-700">&middot;</span> <time datetime="2019-12-20T00:00:00.000Z"> Dec 20, 2019 </time> </div> <h1 class="text-3xl font-bold leading-tight tracking-tight text-zinc-900 dark:text-zinc-50 md:text-4xl"> The modern web is becoming an unusable, user-hostile wasteland </h1> </header> <article class="pt-8"> <div class="prose prose-zinc max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-headings:tracking-tight prose-a:font-medium prose-a:underline prose-a:underline-offset-2 prose-a:decoration-zinc-400 hover:prose-a:decoration-zinc-900 dark:prose-a:decoration-zinc-600 dark:hover:prose-a:decoration-zinc-100">  <blockquote>
+<p>In one of Gerald Weinberg’s books, probably The Secrets of Consulting, there’s the apocryphal story of the giant multinational hamburger chain where some bright MBA figured out that eliminating just three sesame seeds from a sesame-seed bun would be completely unnoticeable by anyone yet would save the company $126,000 per year. So they do it, and time passes, and another bushy-tailed MBA comes along, and does another study, and concludes that removing another five sesame seeds wouldn’t hurt either, and would save even more money, and so on and so forth, every year or two, the new management trainee looking for ways to save money proposes removing a sesame seed or two, until eventually, they’re shipping hamburger buns with exactly three sesame seeds artfully arranged in a triangle, and nobody buys their hamburgers any more.</p>
+</blockquote>
+<p><em>Joel Spolsky from <a href="https://www.joelonsoftware.com/2007/09/11/theres-no-place-like-127001/">There’s no place like 127.0.0.1</a></em></p>
+<p>As I keep browsing today’s internet, I keep recalling this extract. It’s the same thing happening with the modern web: If you add another advertisement to your pages, you generate more revenue. If you track your users better, now you can deliver tailored ads and your conversion rates are higher. If you restrict users from leaving your walled garden ecosystem, now you get all the juice from whatever attention they have.</p>
+<p>The question is: At which point do we reach the breaking point?</p>
+<p>And I think the answer is: <em>We are very close</em>.</p>
+<p>Here are some of these websites, who have managed over time to turn the user experience almost unusable for anyone who doesn’t have an account.</p>
+<h2 id="facebook">Facebook<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#facebook"><span class="icon icon-link"></span></a></h2>
+<p>If you try to open a Facebook page without an account, this is what you get.</p>
+<p><a href="/static/images/blog/the-modern-web/dJwcwmJQW8QkFHeMQBKnTC0xspap.png"><img src="/static/images/blog/the-modern-web/dJwcwmJQW8QkFHeMQBKnTC0xspap.png" alt="Screen Shot 2019-11-11 at 6.34.32 PM.png"/></a></p>
+<p>There is a blue header at the top that has the login form. But in case you missed it, Facebook has made another big white one at the bottom. Have you signed up yet?</p>
+<p>Let’s try to scroll a little bit more.</p>
+<p><a href="/static/images/blog/the-modern-web/gNR1XozEXRGq8TxxBbtSK60xspap.png"><img src="/static/images/blog/the-modern-web/gNR1XozEXRGq8TxxBbtSK60xspap.png" alt="Screen Shot 2019-11-11 at 6.34.55 PM.png"/></a></p>
+<p>Wooha! Looks like you didn’t login, or you haven’t signed up yet! But there is a small “Not Now” button; because we know <em>you’ll have to create an account later</em>.</p>
+<p>In case you think this experience is garbage; wait until you see the mobile version.</p>
+<p><a href="/static/images/blog/the-modern-web/GkQ5zG4SoV2yZDFPZCn1a0xspap.png"><img src="/static/images/blog/the-modern-web/GkQ5zG4SoV2yZDFPZCn1a0xspap.png" alt="IMG_3528.PNG"/></a></p>
+<p>It’s not even clear, at this point, what the actual page is about. Let’s try to scroll a bit more.</p>
+<p><a href="/static/images/blog/the-modern-web/iwrmnvSWCCZ6LWkp1V3SRH0xspap.png"><img src="/static/images/blog/the-modern-web/iwrmnvSWCCZ6LWkp1V3SRH0xspap.png" alt="IMG_3530.PNG"/></a></p>
+<p>There isn’t even any content in this page. Who designed and approved this mess?</p>
+<p>Think you are a smart-ass? You can create a fake account. But after a while, Facebook will think you are dodgy and ask for more identifiable information.</p>
+<p><a href="/static/images/blog/the-modern-web/5xyZiwADWPEziRppRmEvSM0xspap.png"><img src="/static/images/blog/the-modern-web/5xyZiwADWPEziRppRmEvSM0xspap.png" alt="Screen Shot 2019-11-20 at 11.58.45 AM.png"/></a></p>
+<p>There is a solution: To buy a disposable phone number and use it to complete the verification. But this was the breaking point. At this point, I no longer bother.</p>
+<h2 id="twitter">Twitter<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#twitter"><span class="icon icon-link"></span></a></h2>
+<p>Is Twitter any better? Well, it looks like they are trying to strike a balance between giving you free data and their craving for your identity. You can still read the president tweets from his main page.</p>
+<p><a href="/static/images/blog/the-modern-web/vfk2SLog4xoJR693CHSUaX0xspap.png"><img src="/static/images/blog/the-modern-web/vfk2SLog4xoJR693CHSUaX0xspap.png" alt="Screen Shot 2019-12-20 at 1.07.06 PM.png"/></a></p>
+<p>Trying to read his “Tweets &amp; replies” is less fruitful though.</p>
+<p><a href="/static/images/blog/the-modern-web/8eBsgGd149ankeY2dh9qj80xspap.png"><img src="/static/images/blog/the-modern-web/8eBsgGd149ankeY2dh9qj80xspap.png" alt="Screen Shot 2019-12-20 at 1.07.44 PM.png"/></a></p>
+<p>Actually, all of these buttons are inaccessible as for right now.</p>
+<p><a href="/static/images/blog/the-modern-web/iN7M3MxngAUo8bX8F2JCA80xspap.png"><img src="/static/images/blog/the-modern-web/iN7M3MxngAUo8bX8F2JCA80xspap.png" alt="Screen Shot 2019-12-20 at 1.07.06 PM.png"/></a></p>
+<p>Extrapolating on the progress these websites have been making, it’s only a matter of time before <em>nothing</em> on Twitter is readable without an account. Maybe, you’ll get a spoiler in the future; but that’s it.</p>
+<h2 id="medium">Medium<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#medium"><span class="icon icon-link"></span></a></h2>
+<p>Everyone is complaining about these tech-giants these days, but are the new incumbents doing any better? Medium is one these <em>dudes</em> and they claim to be the good guys.</p>
+<blockquote>
+<p>Keep it ad-free Medium doesn’t accept advertising. Please don’t market yourself or other products, feature advertisements, or include requests for claps or donations.</p>
+</blockquote>
+<p><a href="/static/images/blog/the-modern-web/9VdU6n8fbQbksQwSnKp6Nx0xspap.png"><img src="/static/images/blog/the-modern-web/9VdU6n8fbQbksQwSnKp6Nx0xspap.png" alt="Screen Shot 2019-11-11 at 7.26.25 PM.png"/></a></p>
+<p>No ads? Time to check the terms of service.</p>
+<blockquote>
+<p>In consideration for Medium granting you access to and use of the Services, you agree that Medium may enable advertising on the Services, including in connection with the display <em>of your content</em> or other information. We may also <em>use your content</em> to promote Medium, including its products and content. We will never sell your content to third parties without your explicit permission.</p>
+</blockquote>
+<p>So they are advertising, but <em>you are not</em>. But hey! at least they are not selling your content without your permission. Don’t hold your breath, though. The terms can change at a moment notice.</p>
+<p>And in case you wondered what the experience of browsing medium is, here it is:</p>
+<p><a href="/static/images/blog/the-modern-web/wyvY4QLnCK9RFwxDG7CSDc0xspap.png"><img src="/static/images/blog/the-modern-web/wyvY4QLnCK9RFwxDG7CSDc0xspap.png" alt="Screen Shot 2019-11-11 at 7.20.10 PM.png"/></a></p>
+<p><a href="/static/images/blog/the-modern-web/wcxC522McDBrpK98NQyK4f0xspap.png"><img src="/static/images/blog/the-modern-web/wcxC522McDBrpK98NQyK4f0xspap.png" alt="Screen Shot 2019-11-11 at 7.22.33 PM.png"/></a></p>
+<p><a href="/static/images/blog/the-modern-web/rFMbk9Nh775qzsV2Lx3FLn0xspap.png"><img src="/static/images/blog/the-modern-web/rFMbk9Nh775qzsV2Lx3FLn0xspap.png" alt="Screen Shot 2019-11-11 at 7.23.44 PM.png"/></a></p>
+<p>But what if you pay? That is you are not the product like they said. Let’s say you check a supposedly reputable company (i.e. Bloomberg) and think of opting for a digital subscription.</p>
+<p><a href="/static/images/blog/the-modern-web/uZ3k94FgmD61DTUb4m1bqd0xspap.png"><img src="/static/images/blog/the-modern-web/uZ3k94FgmD61DTUb4m1bqd0xspap.png" alt="Screen Shot 2019-11-23 at 9.33.01 PM.png"/></a></p>
+<p>I mean it’s only $2/month. Less than what you’d pay for a cup of coffee. Or $<strong>340</strong>/year; here hoping you are very bad at math.</p>
+<p>In a nutshell, if I can describe my browsing experience in 2019.</p>
+<ul>
+<li>Websites asking to login, register or enter an email.</li>
+<li>Websites asking for your phone number after you gave up your email.</li>
+<li>Websites asking to allow HTML5 notifications.</li>
+<li>Websites downloading 50Mb of data and making hundreds of requests to serve 6Kb worth of text.</li>
+<li>Websites that are not functioning because they have too much JavaScript.</li>
+<li>Websites that are not functioning because some of the JavaScript was caught by uBlock Origin.</li>
+<li>Websites asking to turn off the Ad Blocker.</li>
+<li>Websites asking to accept the cookies in 41,484 different ways.</li>
+<li>Websites asking to download their mobile app which is non-native and requires around 200Mb of storage.</li>
+<li>Popups to buy a deal or download some random crap.</li>
+<li>reCaptcha with random street images; that are sometimes impossible to solve.</li>
+<li>CloudFlare DDoS protection thinking I’m a bot.</li>
+<li>Youtube running a 2:30 minutes ad for a 3:30 minutes music video.</li>
+<li>Video or Website not showing up because I’m not in said country.</li>
+<li>Linkedin that keeps sending dozens of emails despite unsubscribing multiple times; and somehow evades the Spam filter</li>
+</ul>
+<h1 id="the-breaking-point">The breaking point<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-breaking-point"><span class="icon icon-link"></span></a></h1>
+<p>I used to have a bank account with a local branch of BNP Paribas. When I signed up, I opted for various services like Online Banking, a “Platinum” debit card and other services. It made sense at the time to pay for online banking since it was long ago, but does it make sense now?</p>
+<p>Worse, in the last few years, I have seen the bill for these services increase three fold in the last 3 years. And they started charging for small crap: Deposit money? There is a small fee. Deposit a check? There is a small fee. Withdraw from another bank ATM? The fee now is so high I have to think twice. <em>Inconvenient</em>.</p>
+<p>Changing banks is annoying but not impossible. It’d be better if I can avoid such a thing but there is a point where the system breaks. And at some point, you look at the bill and decide: That’s the <strong>breaking point</strong>.</p>  </div> </article> <section class="mt-16 border-t border-zinc-200 pt-10 dark:border-zinc-800"> <p class="font-mono text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-600">
+Newsletter
+</p> <h3 class="mt-3 text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+Get new posts in your inbox
+</h3> <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+No spam. Just an email when I publish something new.
+</p> <form id="newsletter-form" class="mt-6"> <div class="flex items-center gap-3 border-b border-zinc-300 pb-2 focus-within:border-zinc-900 dark:border-zinc-700 dark:focus-within:border-zinc-100"> <input type="email" name="email" placeholder="you@example.com" required class="min-w-0 flex-1 bg-transparent text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none dark:text-zinc-100 dark:placeholder:text-zinc-600"> <button type="submit" class="shrink-0 font-mono text-xs uppercase tracking-widest text-zinc-500 transition-colors hover:text-zinc-900 disabled:opacity-50 dark:text-zinc-400 dark:hover:text-zinc-100">
+Subscribe &rarr;
+</button> </div> <p id="newsletter-status" class="mt-3 hidden text-sm"></p> </form> </section> <script>(function(){const endpoint = "https://api.useplunk.com/v1/track";
+const apiKey = "pk_697b806aeb03d6ae759b20e1c7ac758d087182a0d3d70a28";
+const eventName = "newsletter_subscription";
+
+  (function () {
+    var form = document.getElementById('newsletter-form');
+    var status = document.getElementById('newsletter-status');
+    if (!form) return;
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"]');
+      var input = form.querySelector('input[name="email"]');
+      var email = input.value;
+      btn.disabled = true;
+      btn.textContent = 'Sending';
+      status.classList.add('hidden');
+      try {
+        var res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: 'Bearer ' + apiKey,
+          },
+          body: JSON.stringify({
+            event: eventName,
+            email: email,
+            subscribed: true,
+            data: { source: 'blog_article' },
+          }),
+        });
+        var data = await res.json();
+        if (data.success) {
+          status.textContent = 'Thanks for subscribing.';
+          status.className = 'mt-3 text-sm text-emerald-600 dark:text-emerald-400';
+          input.value = '';
+        } else {
+          status.textContent = 'Something went wrong. Please try again.';
+          status.className = 'mt-3 text-sm text-red-600 dark:text-red-400';
+        }
+      } catch (err) {
+        status.textContent = 'Something went wrong. Please try again.';
+        status.className = 'mt-3 text-sm text-red-600 dark:text-red-400';
+      } finally {
+        status.classList.remove('hidden');
+        btn.disabled = false;
+        btn.textContent = 'Subscribe \u2192';
+      }
+    });
+  })();
+})();</script> </section>  </main> <footer class="border-t border-zinc-200/70 dark:border-zinc-800/70"> <div class="mx-auto flex max-w-2xl flex-col gap-2 px-6 py-8 font-mono text-xs text-zinc-500 dark:text-zinc-400 sm:flex-row sm:items-center sm:justify-between"> <div>
+&copy; 2026 Omar Abid </div> <div class="flex items-center gap-4"> <a class="border-b border-zinc-300 text-zinc-600 transition-colors hover:border-zinc-900 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-100 dark:hover:text-zinc-100" target="_blank" rel="noopener noreferrer" href="https://github.com/omarabid">
+GitHub
+</a> <a class="border-b border-zinc-300 text-zinc-600 transition-colors hover:border-zinc-900 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-100 dark:hover:text-zinc-100" href="mailto:hello@omarabid.com">
+Email
+</a> </div> </div> </footer> </body></html>

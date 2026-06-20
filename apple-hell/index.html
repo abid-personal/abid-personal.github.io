@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en-us" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apple&#39;s Hell | Omar Abid - Personal Blog</title><meta name="description" content="Apple's issues"><link rel="canonical" href="https://omarabid.com/apple-hell"><link rel="alternate" type="application/rss+xml" title="Omar Abid - Personal Blog" href="/rss.xml"><link rel="apple-touch-icon" sizes="76x76" href="/favicon.svg"><link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon.svg"><link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon.svg"><link rel="manifest" href="/static/favicons/site.webmanifest"><link rel="mask-icon" href="/favicon.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#000000"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafafa"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a"><meta property="og:type" content="website"><meta property="og:title" content="Apple's Hell"><meta property="og:description" content="Apple's issues"><meta property="og:url" content="https://omarabid.com/apple-hell"><meta property="og:site_name" content="Omar Abid - Personal Blog"><meta property="og:image" content="https://omarabid.com/static/images/twitter-card.png"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Apple's Hell"><meta name="twitter:description" content="Apple's issues"><meta name="twitter:image" content="https://omarabid.com/static/images/twitter-card.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Omar Abid - Personal Blog","url":"https://omarabid.com","description":"Personal blog of Omar Abid"}</script><script>
+  (function () {
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = stored || (prefersDark ? 'dark' : 'light');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })();
+</script><script>(function(){const apiKey = "phc_SXKq5wim75yivOL0JMC6AEukyJx0RX7MaoJgzrZhAOd";
+const apiHost = "https://prx.omarabid.com";
+
+  (function () {
+    if (!apiKey) return;
+    window.posthog = window.posthog || function () {
+      (window.posthog.q = window.posthog.q || []).push(arguments);
+    };
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = apiHost + '/static/array.js';
+    var t = document.getElementsByTagName('script')[0];
+    t.parentNode.insertBefore(s, t);
+    window.posthog.init(apiKey, {
+      api_host: apiHost,
+      person_profiles: 'identified_only',
+    });
+  })();
+})();</script><link rel="stylesheet" href="/_astro/BaseLayout.CYey4pER.css"></head> <body class="min-h-screen bg-zinc-50 font-sans text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(c,s,d)=>s in c?g(c,s,{enumerable:!0,configurable:!0,writable:!0,value:d}):c[s]=d;var l=(c,s,d)=>w(c,typeof s!="symbol"?s+"":s,d);var E=new Set(["__proto__","constructor","prototype"]);{let c={0:t=>y(t),1:t=>d(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(d(t)),5:t=>new Set(d(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in c?c[p](e):void 0},d=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let n=this.querySelectorAll("astro-slot"),r={},i=this.querySelectorAll("template[data-astro-template]");for(let o of i){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of n){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let a=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(a+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${a}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,r,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),n.disconnect(),this.childrenConnectedCallback()},n=new MutationObserver(()=>{var r;((r=this.lastChild)==null?void 0:r.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});n.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let n=new URL(e,document.baseURI),r=`astro-retry=${Date.now()}`,i=n.hash.replace(/^#/,"");return n.hash=i?`${i}&${r}`:r,n.toString()}async importWithRetry(e){try{return await import(e)}catch(n){return await new Promise(r=>setTimeout(r,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let n=this.getAttribute("component-url"),r=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:n}});this.dispatchEvent(r)&&console.error(`[astro-island] Error hydrating ${n}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),n=this.getAttribute("client");if(Astro[n]===void 0){window.addEventListener(`astro:${n}`,()=>this.start(),{once:!0});return}try{await Astro[n](async()=>{let r=this.getAttribute("renderer-url");try{let[i,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),r?this.importWithRetry(r):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=i;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=i[h]}return this.hydrator=u,this.hydrate}catch(i){return this.handleHydrationError(i),()=>{}}},e,this)}catch(r){this.handleHydrationError(r)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="2nYFC9" prefix="r1" component-url="/_astro/Search.D35f66jP.js" component-export="default" renderer-url="/_astro/client.DEGIX_Eg.js" props="{}" ssr client="idle" opts="{&quot;name&quot;:&quot;Search&quot;,&quot;value&quot;:true}"></astro-island> <header class="sticky top-0 z-40 border-b border-zinc-200/70 bg-zinc-50/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80"> <div class="mx-auto flex h-14 max-w-2xl items-center justify-between px-6"> <a href="/" class="text-sm font-semibold tracking-tight text-zinc-900 transition-opacity hover:opacity-70 dark:text-zinc-50"> Omar Abid </a> <nav class="flex items-center gap-1 text-sm"> <button id="theme-switch" aria-label="Toggle Dark Mode" class="inline-flex h-8 w-8 items-center justify-center text-zinc-600 transition-colors hover:bg-zinc-200/60 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100"> <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke-width="0" viewBox="0 0 56 56" fill="currentColor"> <path d="M41.2 36.1c-12.9 0-21-7.8-21-20.3 0-3.5.7-6.7 1.6-8.3.3-.7.4-1 .4-1.5 0-.8-.7-1.7-1.7-1.7-.2 0-.7 0-1.3.3A24.5 24.5 0 004.4 27.1 23.8 23.8 0 0029 51.7c10.2 0 18.4-5.3 22.3-14.1l.3-1.4c0-1-.9-1.6-1.6-1.6a3 3 0 00-1.2.2c-2 .8-4.8 1.3-7.6 1.3zM8.1 27c0-7.3 3.8-14.3 9.9-18-.8 2-1.2 4.5-1.2 7.2 0 14.6 9 23.3 23.9 23.3 2.4 0 4.5-.2 6.4-1a20.8 20.8 0 01-18 9.6C17 48 8.1 39 8.1 27z"></path> </svg> <svg class="block dark:hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke-width="0" viewBox="0 0 56 56" fill="currentColor"> <path d="M30 4.6c0-1-.9-2-2-2a2 2 0 00-2 2v5c0 1 .9 2 2 2s2-1 2-2zm9.6 9a2 2 0 000 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 000-2.9 2 2 0 00-3 0zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3zM28 16a12 12 0 00-12 12 12 12 0 0012 12 12 12 0 0012-12 12 12 0 00-12-12zm0 3.6c4.6 0 8.4 3.8 8.4 8.4 0 4.6-3.8 8.4-8.4 8.4a8.5 8.5 0 01-8.4-8.4c0-4.6 3.8-8.4 8.4-8.4zM51.3 30c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 00-2 2c0 1.1 1 2 2 2zM4.7 26a2 2 0 00-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2zm37.8 13.6a2 2 0 00-3 0 2 2 0 000 2.9l3.6 3.5a2 2 0 002.9 0c.8-.8.8-2.1 0-3zM10 43.1a2 2 0 000 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0zm20 3.4c0-1.1-.9-2-2-2a2 2 0 00-2 2v4.9c0 1 .9 2 2 2s2-1 2-2z"></path> </svg> </button> <script>
+  document.getElementById('theme-switch').addEventListener('click', function () {
+    const isDark = document.documentElement.classList.contains('dark');
+    const next = isDark ? 'light' : 'dark';
+    if (next === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+    localStorage.setItem('theme', next);
+  });
+</script> <a href="https://codeinput.com" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">
+Code Input
+</a> <a href="/about" class="px-2.5 py-1 text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">
+About
+</a> </nav> </div> </header> <script type="module">function n(){window.dispatchEvent(new CustomEvent("kbar-open"))}document.addEventListener("keydown",e=>{(e.metaKey||e.ctrlKey)&&e.key==="k"&&(e.preventDefault(),n())});</script> <main class="mx-auto max-w-2xl px-6 py-10 md:py-16">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Apple's Hell","datePublished":"2020-08-18T00:00:00.000Z","dateModified":"2020-08-18T00:00:00.000Z","description":"Apple's issues","image":"/static/images/twitter-card.png","url":"https://omarabid.com/apple-hell","author":{"@type":"Person","name":"Omar Abid"}}</script> <section class="w-full"> <button id="scroll-top-btn" aria-label="Scroll to top" class="fixed bottom-8 right-8 z-40 inline-flex items-center gap-1.5 px-3 py-2 font-mono text-xs uppercase tracking-widest text-zinc-400 transition-all hover:text-zinc-900 dark:text-zinc-600 dark:hover:text-zinc-100 opacity-0 pointer-events-none">
+&uarr; Top
+</button> <script>
+  (function () {
+    var btn = document.getElementById('scroll-top-btn');
+    if (!btn) return;
+    function onScroll() {
+      if (window.scrollY > 50) {
+        btn.classList.remove('opacity-0', 'pointer-events-none');
+      } else {
+        btn.classList.add('opacity-0', 'pointer-events-none');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script> <header class="border-b border-zinc-200 pb-6 dark:border-zinc-800"> <div class="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-zinc-500 dark:text-zinc-400"> <a href="https://github.com/omarabid" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-zinc-900 dark:hover:text-zinc-100">
+@omarabid
+</a> <span class="text-zinc-300 dark:text-zinc-700">&middot;</span> <time datetime="2020-08-18T00:00:00.000Z"> Aug 18, 2020 </time> </div> <h1 class="text-3xl font-bold leading-tight tracking-tight text-zinc-900 dark:text-zinc-50 md:text-4xl"> Apple&#39;s Hell </h1> </header> <article class="pt-8"> <div class="prose prose-zinc max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-headings:tracking-tight prose-a:font-medium prose-a:underline prose-a:underline-offset-2 prose-a:decoration-zinc-400 hover:prose-a:decoration-zinc-900 dark:prose-a:decoration-zinc-600 dark:hover:prose-a:decoration-zinc-100">  <p>My journey with Apple’s products began roughly 6 years ago. I’ve been using Windows ever since I started using computers; with brief stunts on Linux. The transition, back then, seemed like a straightforward choice. I didn’t have the time to fight and learn Linux. I just needed software and hardware that worked. Apple’s ecosystem stroke a balance between getting things done, having reliable hardware and still having room for customization.</p>
+<p><a href="https://en.wikipedia.org/wiki/OS_X_Mavericks">Mavericks</a> was my first introduction to <a href="https://en.wikipedia.org/wiki/MacOS">OS X</a>. The OS was fast, seamless and well refined; backups, encryption, and mail just worked with a few clicks. Things, however, haven’t been that orderly as of late. macOS has been diverging from its origins as a developer’s OS and on track to become a mainstream OS; and hardware build quality is not as good as it used to be. I’m still very happy with the iPhone but not quite sure about macOS and the Macbook lineup. I have also, to a certain degree, outgrown the macOS ecosystem. I needed a greater deal of customization, a <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window manager</a>, and needed less slick gadgets and zappy notifications.</p>
+<p>My macOS setup was simple, flexible and quite common. I had a <a href="https://support.apple.com/kb/SP776?locale=en_US">15” 2018 Macbook Pro</a> that is my primary machine plugged to three monitors on desk. I also had an older <a href="https://support.apple.com/kb/SP704?locale=en_US">15” 2014 Macbook Pro</a> as a backup machine; just in case the primary machine went down. I didn’t have second thoughts about using a laptop as a desktop replacement; that seemed what everyone else is doing.</p>
+<h1 id="swollen-batteries">Swollen batteries<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#swollen-batteries"><span class="icon icon-link"></span></a></h1>
+<p>Much like the rest of world, I was stuck at home during March and April due to a <a href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">confinement order</a>. I didn’t need to unplug my Macbook during that time, and it being placed behind three big monitors made it unnoticeable. I didn’t observe any weirdness or effects on performance and there were no alerts until I unplugged it and discovered an unpleasant surprise.</p>
+<p><a href="/static/images/blog/apple-hell/nZDzPJ5H2vxmooTntiuwmS0xspap.jpg"><img src="/static/images/blog/apple-hell/nZDzPJ5H2vxmooTntiuwmS0xspap.jpg" alt="Macbook Pro battery"/></a></p>
+<blockquote>
+<p>the battery is still in good condition according to macOS</p>
+</blockquote>
+<p>The laptop was purchased a year and four months ago; its warranty has expired and I was aware that I’d have to repair it on my expense. What I wasn’t aware of, however, is how expensive to repair the 2018 line or how hard it is to replace its battery. iFixit has a <a href="https://www.ifixit.com/Guide/MacBook+Pro+15-Inch+Touch+Bar+2018+Battery+Replacement/122269">guide</a> on how to do it and it’s a real struggle. The process is a 66 steps that will take a professional anything from one to three hours and requires special tools. It’s not a process that I feel comfortable doing on my own.</p>
+<p>There are no Apple stores where I live, so I paid a couple <em>Apple Authorized service providers</em> a visit. I got quoted around $800 for the battery replacement and 2-3 months repair time. Apparently, they can’t replace the battery but the whole casing. They also need to order the new casing and have it shipped which can take considerable time. That did leave a bad taste: not being able to replace the battery might be acceptable if the upside is a slimmer laptop but the fee to get it serviced is simply ridiculous.</p>
+<p>It doesn’t seem that I am the only one facing this <a href="https://forums.macrumors.com/threads/macbook-pro-2018-swelling.2208695/">issue</a>, though it seems the people who had the issue are also using the Macbook as a desktop replacement with multiple monitors plugged; so maybe there is something to that. People who have access to an Apple store seemed to have better luck of getting it fixed for free; however, for the rest of us, it’s not that lucky.</p>
+<p>Interestingly, during that time, Apple released a <a href="https://arstechnica.com/gadgets/2020/05/apple-introduces-new-macbook-battery-management-with-macos-catalina-10-15-5/">macOS update</a> for battery management. The timing is suspicious, but it might have been just coincidental. We do know that batteries for the <a href="https://support.apple.com/15-inch-macbook-pro-battery-recall">2015 lineup had a problem</a> with swelling and there is a <a href="https://support.apple.com/15-inch-macbook-pro-battery-recall">replacement program</a>. But they only recognized that in 2019, so do not hold your breath.</p>
+<p>Getting the laptop handled on short notice being unlikely, I moved to my second plan: using the older one as backup.</p>
+<h1 id="time-machine-woes">Time Machine Woes<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#time-machine-woes"><span class="icon icon-link"></span></a></h1>
+<p>The most important lesson that I have learned from this wreck was: It’s not enough to do backups, you also have to test that they do work; probably regularly. I didn’t do that and I was caught by surprise that <a href="https://en.wikipedia.org/wiki/Time_Machine_(macOS)">Time Machine</a> backups did not work in accordance to my expectations.</p>
+<p>My expectation was that Time Machine will backup <em>all</em> files. By <em>all</em> files, I thought it did a clone of my Hard Drive; and when restored, it’ll restore an identical image of the previous system. That is, I’d have a replica of my system configuration, my browser history, sites that I logged on to, etc… Unluckily, that’s not the case. Time Machine <a href="https://apple.stackexchange.com/a/25833/58703">do ignore files</a>; and getting it to do a real system clone appears to be a considerable headache (if possible); especially that I didn’t want to operate the hazardous laptop for extended periods of time.</p>
+<p>But does these arbitrarily seeming exclusions matter? Yes, they do. The system was functional but I was not able to run several apps and scripts that I have installed and manually configured. Docker was also broken. I did find all of my files but these were already backed up in iCloud; I was mainly after getting a replica of my other laptop.</p>
+<h1 id="icloud-troubles">iCloud Troubles<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#icloud-troubles"><span class="icon icon-link"></span></a></h1>
+<p>With a functioning system, I was happy to at least have my files there; even though some stuff is not functioning correctly. But for some reason, the system slowed to a crawl and fans were running at full speed. A process named <code>bird</code> was consuming pretty much all of my CPU power; restarting the system or trying to stop it didn’t work as it’ll spawn again.</p>
+<p>The process, apparently, belongs to <a href="https://discussions.apple.com/thread/6606275">iCloud Drive</a>. It’s not clear what iCloud is trying to do here, but my wild guess is that iCloud is checking that files on the local drive matches the ones on the cloud. If that’s the case, it’s probably calculating a checksum for the local files and comparing it to the checksum in the cloud. It’s not clear what triggered iCloud, but that might be a consequence of some of the files that Time Machine missed.</p>
+<p>A couple hours later, iCloud is still brewing. There are no progress indicators, so it’s not clear how long such a process would take but with hundreds of thousands of files, it might possibly take days?</p>
+<p>With restoring the old system becoming an exasperating process, I decided to start from a blank slate. After all, if I was going to fix a broken system might as well just build it again.</p>
+<h1 id="backward-compatibility">Backward compatibility<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#backward-compatibility"><span class="icon icon-link"></span></a></h1>
+<p>For a new re-install, your 2014 Macbook Pro will install not the latest but the original operating system version. That is, for the 2014 Macbook Pro, you first install Mavericks, and then upgrade to the latest system. That was interesting, since you can’t downgrade your system later; and also, you can’t upgrade to any system other than the latest. So if you are in this situation, you have Mavericks hardware, you lost your backup, and you need <a href="https://en.wikipedia.org/wiki/OS_X_El_Capitan">El Capitain</a> instead of <a href="https://en.wikipedia.org/wiki/MacOS_Catalina">Catalina</a>; I’m not sure if you can do that.</p>
+<p>There is a list of exceptions/rules under <a href="https://support.apple.com/en-us/HT204904">macOS Recovery exceptions</a> that will determine which version you can install depending on your hardware and last installed version. Unfortunately, you can’t <a href="https://apple.stackexchange.com/a/309400/58703"><em>simply</em> install a particular version of macOS</a>.</p>
+<p>Mavericks was a bit of fresh air, though. It was pretty fast, and it didn’t have useless features that I didn’t need. But then, I stumbled upon another problem: <a href="https://en.wikipedia.org/wiki/Backward_compatibility">Backward compatibility</a>. If you have been upgrading your macOS system consistently, you might have missed that Apple is a bad steward of backward compatibility; with probably the one exception of no longer supporting <a href="https://arstechnica.com/gadgets/2018/01/apple-prepares-macos-users-for-discontinuation-of-32-bit-app-support/">32-bit applications</a> which should have broke most of your games.</p>
+<p>These are things that you can turn a blind eye on until they come later and bite you hard. For Mavericks, it didn’t have an <a href="https://en.wikipedia.org/wiki/AirDrop#Transfer_between_a_Mac_and_an_iOS_device">interoperable Airdrop</a> with iOS. So I wasn’t able to upload photos from my iPhone to the laptop. Maybe I should use Bluetooth? Tough luck, the iPhone doesn’t support <a href="https://www.reddit.com/r/iphone/comments/ar7yd4/sending_photo_from_iphone_to_android_with/">sending a photo</a> over Bluetooth. Once you leave Apple walled garden, you are pretty much screwed.</p>
+<p>Needless to say, I was not able to get lots of applications running like Skype, RescueTime, Fork. They all require the latest version of macOS and do not support older versions.</p>
+<h1 id="moving-forward">Moving forward<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#moving-forward"><span class="icon icon-link"></span></a></h1>
+<p>I started having headaches with macOS last year. The Parental Control feature checks every URL you ping, and thus slowed down even local development which took me a week to figure out what process what slowing traffic. With macOS slowly diverging from a developer friendly OS to a mainstream, iPhone-like one, it’s time to move on. Here is what the next update of macOS will look like.</p>
+<p><a href="/static/images/blog/apple-hell/dc5LRFprRqK1kpdQEptrWE0xspap.jpg"><img src="/static/images/blog/apple-hell/dc5LRFprRqK1kpdQEptrWE0xspap.jpg" alt="macOS Big Sur"/></a></p>
+<blockquote>
+<p>The new macOS is looking more like iOS</p>
+</blockquote>
+<p>I can understand Apple’s perspective; after all, a mainstream market is larger and more profitable than a developer’s only market. Creative people will still use Apple products regardless and people developing for macOS/iOS will always depend on the Apple ecosystem. So it might workout profitably for them.</p>
+<p>Don’t get me wrong, macOS is still a very good OS. I’ll probably keep using it in combination to the phone to do regular browsing, mail, documents and other miscellaneous stuff; probably pick an Air instead of a Pro.</p>
+<p>For development, I took the plunge and built a box and installed <a href="https://www.archlinux.org/">ArchLinux</a>. An <a href="https://www.amd.com/en/products/cpu/amd-ryzen-7-3700x">AMD Ryzen 3700X</a>, 32 GB of RAM, <a href="https://www.nvidia.com/en-me/geforce/graphics-cards/gtx-1650-super/">Nvidia GTX 1650 Super</a> and an 256 GB <a href="https://en.wikipedia.org/wiki/NVM_Express">NVMe drive</a> cost roughly $1.000. Not that far from the cost of repairing a Macbook battery!</p>
+<p>I was surprised how easy it is to setup ArchLinux on a randomly picked box; most of the hardware just worked out of the box; but it’s still early to judge the experience as I’m only two months in.</p>
+<p>But that’s a talking point for another day!</p>  </div> </article> <section class="mt-16 border-t border-zinc-200 pt-10 dark:border-zinc-800"> <p class="font-mono text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-600">
+Newsletter
+</p> <h3 class="mt-3 text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+Get new posts in your inbox
+</h3> <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+No spam. Just an email when I publish something new.
+</p> <form id="newsletter-form" class="mt-6"> <div class="flex items-center gap-3 border-b border-zinc-300 pb-2 focus-within:border-zinc-900 dark:border-zinc-700 dark:focus-within:border-zinc-100"> <input type="email" name="email" placeholder="you@example.com" required class="min-w-0 flex-1 bg-transparent text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none dark:text-zinc-100 dark:placeholder:text-zinc-600"> <button type="submit" class="shrink-0 font-mono text-xs uppercase tracking-widest text-zinc-500 transition-colors hover:text-zinc-900 disabled:opacity-50 dark:text-zinc-400 dark:hover:text-zinc-100">
+Subscribe &rarr;
+</button> </div> <p id="newsletter-status" class="mt-3 hidden text-sm"></p> </form> </section> <script>(function(){const endpoint = "https://api.useplunk.com/v1/track";
+const apiKey = "pk_697b806aeb03d6ae759b20e1c7ac758d087182a0d3d70a28";
+const eventName = "newsletter_subscription";
+
+  (function () {
+    var form = document.getElementById('newsletter-form');
+    var status = document.getElementById('newsletter-status');
+    if (!form) return;
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"]');
+      var input = form.querySelector('input[name="email"]');
+      var email = input.value;
+      btn.disabled = true;
+      btn.textContent = 'Sending';
+      status.classList.add('hidden');
+      try {
+        var res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: 'Bearer ' + apiKey,
+          },
+          body: JSON.stringify({
+            event: eventName,
+            email: email,
+            subscribed: true,
+            data: { source: 'blog_article' },
+          }),
+        });
+        var data = await res.json();
+        if (data.success) {
+          status.textContent = 'Thanks for subscribing.';
+          status.className = 'mt-3 text-sm text-emerald-600 dark:text-emerald-400';
+          input.value = '';
+        } else {
+          status.textContent = 'Something went wrong. Please try again.';
+          status.className = 'mt-3 text-sm text-red-600 dark:text-red-400';
+        }
+      } catch (err) {
+        status.textContent = 'Something went wrong. Please try again.';
+        status.className = 'mt-3 text-sm text-red-600 dark:text-red-400';
+      } finally {
+        status.classList.remove('hidden');
+        btn.disabled = false;
+        btn.textContent = 'Subscribe \u2192';
+      }
+    });
+  })();
+})();</script> </section>  </main> <footer class="border-t border-zinc-200/70 dark:border-zinc-800/70"> <div class="mx-auto flex max-w-2xl flex-col gap-2 px-6 py-8 font-mono text-xs text-zinc-500 dark:text-zinc-400 sm:flex-row sm:items-center sm:justify-between"> <div>
+&copy; 2026 Omar Abid </div> <div class="flex items-center gap-4"> <a class="border-b border-zinc-300 text-zinc-600 transition-colors hover:border-zinc-900 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-100 dark:hover:text-zinc-100" target="_blank" rel="noopener noreferrer" href="https://github.com/omarabid">
+GitHub
+</a> <a class="border-b border-zinc-300 text-zinc-600 transition-colors hover:border-zinc-900 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-100 dark:hover:text-zinc-100" href="mailto:hello@omarabid.com">
+Email
+</a> </div> </div> </footer> </body></html>
